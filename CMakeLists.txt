@@ -4,7 +4,7 @@ project(HelloWorld)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set (source_dir "${PROJECT_SOURCE_DIR}/src")
+set (source_dir "./src")
 file (GLOB source_files "${source_dir}/*.cpp")
 
 add_executable(HelloWorld ${source_files})
